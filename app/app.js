@@ -1,7 +1,8 @@
 function initUrlListener() {
-    $(window).on("hashchange", changeRoute);
+  $(window).on("hashchange", changeRoute);
 }
 
-$(document).ready(function() {
-    initUrlListener ();
-})
+$(document).ready(function () {
+  initUrlListener();
+  changeRoute();
+});
