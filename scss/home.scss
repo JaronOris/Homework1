@@ -1,0 +1,54 @@
+.cardHolder {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-around;
+
+    .recipeCard {
+        border: 2px solid black;
+        border-radius: 20px;
+
+        .cardName {
+            width: 300px;
+            height: auto;
+            text-align: center;
+            padding: 10px 0px;
+            font-family: sans-serif;
+            font-size: 24px;
+            font-style: italic;
+            background-color: white;
+            border-radius: 20px;
+        }
+    
+        .cardImg {
+            width: 300px;
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #stirfryImg {
+            background-image: url(/images/stirfry.jpg);
+        }
+
+        #banaFostImg {
+            background-image: url(/images/banansFoster.jpg);
+        }
+
+        #risottoImg {
+            background-image: url(/images/risotto.jpg);
+        }
+    
+        .cardDesc {
+            width: 300px;
+            height: 200px;
+            font-family: serif;
+            font-size: 18px;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+}

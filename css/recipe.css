@@ -1,0 +1,43 @@
+.recipeHolder {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.recipeHolder .recipeImgFull {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 50%;
+  height: 700px;
+}
+.recipeHolder #stirFryFull {
+  background-image: url(/images/stirfry.jpg);
+}
+.recipeHolder #banFostFull {
+  background-image: url(/images/banansFoster.jpg);
+}
+.recipeHolder #risottoFull {
+  background-image: url(/images/risotto.jpg);
+}
+.recipeHolder .titleAndBody {
+  width: 700px;
+  height: auto;
+  font-family: serif;
+  font-size: 18px;
+  padding: 75px;
+}
+.recipeHolder .titleAndBody h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.recipeHolder .titleAndBody ol, .recipeHolder .titleAndBody ul, .recipeHolder .titleAndBody p {
+  margin-bottom: 16px;
+}

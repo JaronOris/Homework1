@@ -1,0 +1,12 @@
+* {
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.heroFound {
+  width: 100vw;
+  height: auto;
+  background-image: url(/images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

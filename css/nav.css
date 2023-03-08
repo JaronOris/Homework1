@@ -1,0 +1,32 @@
+nav {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.75)), to(rgba(255, 255, 255, 0.25)));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+  background-image: -webkit-gradient(linear, left bottom, left top, );
+  background-image: linear-gradient(to top);
+}
+nav .links {
+  width: 30%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .links a {
+  font-size: 22px;
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+  font-family: serif;
+  border-right: 2px solid black;
+  padding: 3px 20px 3px 0px;
+}
